@@ -39,7 +39,18 @@ nav a:hover {
     width: 65%;
     height: 65%;
     float: right;
-    padding-top: 15%;
+    padding-top: 25%;
+}
+
+#contact-info {
+    font-size: 30px;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
