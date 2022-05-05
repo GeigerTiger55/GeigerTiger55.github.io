@@ -1,5 +1,22 @@
 body {
+    background-image: url('images/ggb-bg.png');
     background-color: rgb(50, 68, 80);
+    background-size: cover;
+    
+}
+
+h1 {
+    color:white;
+    text-decoration: underline;
+}
+
+p {
+    color: white;
+    font-size: 120%;
+}
+
+a:visited {
+    color: white;
 }
 
 nav {
@@ -28,10 +45,31 @@ nav a {
     text-decoration: none;
   }
 
+nav a:visited {
+    color:  rgb(50, 68, 80);
+}
+
 nav a:hover {
     background-color: #333;
     color: white;
-  }
+}
+
+footer hr {
+    color: white;
+}
+
+.right-section {
+    float:right;
+    padding-right: 25%;
+    padding-top: 5%;
+    color: white;
+    font-size: 150%;
+    text-align: right;
+}
+
+#profile-pic {
+    border-radius: 50%;
+}
 
 #landing-blurb {
     font-size: 400%;
@@ -39,26 +77,31 @@ nav a:hover {
     width: 65%;
     height: 65%;
     float: right;
-    padding-top: 25%;
+    padding-top: 10%;
 }
 
 #contact-info {
     font-size: 30px;
     color:white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
-    color:white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
 
-p {
+
+.left-column {
+    float: left;
+    width: 25%;
     color: white;
-    font-weight: bold;
-    font-size: 16px;
+    font-size: 150%;
+    padding: 2%;
 }
 
-footer hr {
+.right-column {
+    float: left;
+    width: 65%;
+    padding: 2%;
     color: white;
+    font-size: 150%;
+    text-align: right;
 }
+
+
