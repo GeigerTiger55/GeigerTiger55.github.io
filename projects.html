@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div>
+          <div class="left-section">
+            <h1>Projects</h1>
+            
+            <h3><a href="https://github.com/GeigerTiger55/">Github Account</a></h3>
+            
+            <h3><a href="#sis-mobile-app">Rithm School Mobile App</a></h3>
+            <h3><a href="#pixly">Pix.ly</a></h3>
+            <h3><a href="#jobly">Job.ly</a></h3>
+            <h3><a href="#warbler">Warbler</a></h3>
+            
+            <hr />
+            
+            <h2 id="sis-mobile-app">Rithm School Mobile App</h2>
+            <p>
+              <a href="mobile_demo.html">Demo</a> | 
+              <a href="https://github.com/GeigerTiger55/sis-mobile">Github</a>
+            </p>
+            <p>Mobile App uses the following technologies:</p>
+            <ul>
+              <li>React-Native, frontend</li>
+              <li>JavaScript</li>
+              <li>Axios library, data displayed is fetched from a Django backend</li>
+              <li>Stack and Tab Navigation, the stack navigation is nested inside 
+                the tab naviation</li>
+              <li>User authentication</li>
+              <li>React Native Paper</li>
+              <li>Flatlist</li>
+            </ul>
+            <p>
+              The Rithm School mobile application displays all upcoming lectures,
+              exercises, assessments and events for the cohort the user is participating
+              in. The user can click on an item to view more information about
+              it. The user can then use the tab navigation to view only one of the 
+              categories.
+            </p>
+            
+            <h2 id="pixly">Pix.ly</h2>
+            <p>
+              <a href="https://r26-pixly.herokuapp.com/">Demo</a> |
+              <a href="https://github.com/GeigerTiger55/pixly-flask">Github</a>
+            </p>
+            <p>Pix.ly uses the following technologies:</p>
+            <ul>
+              <li>Flask, frontend and backend</li>
+              <li>Python</li>
+              <li>AWS - S3, stores images on AWS</li>
+              <li>PostgreSQL full text search</li>
+            </ul>
+            <p>
+              Pixly allows a user to upload images to be stored on AWS. When the 
+              image is being uploaded, the user can choose to convert the image 
+              to black and white. The meta data of the image is stored. The user 
+              can search through their images by the name, author, or meta data 
+              information that is stored in the database.
+            </p>
+            
+            
+            <h2 id="jobly">Job.ly</h2>
+            <p>
+              <a href="https://jobly.demo.elisegeiger.com">Demo</a> |
+              <a href="https://github.com/GeigerTiger55/react-jobly">Github</a>
+            </p>
+            <p>Job.ly uses the following technologies:</p>
+            <ul>
+              <li>React, frontend</li>
+              <li>JavaScript</li>
+              <li>Flask, backend</li>
+              <li>Python</li>
+              <li>Backend handles authentication and authorization through middleware</li>
+              <li>React Router, site is a single page application</li>
+              <li>Local storage, allows a user to remain logged in when navigating
+                away and returning to the page
+              </li>
+            </ul>
+            <p>
+              Jobly allows a user to login and search through jobs or companies.
+              The jobs and companies are stored in the backend and fetched using 
+              an axios api. The jobs can be viewed by company. Companies and jobs
+              can be searched.
+            </p>
+            
+            <h2 id="warbler">Warbler</h2>
+            <p>
+              <a href="https://r26-elise-warbler.herokuapp.com/">Demo</a> |
+              <a href="https://github.com/GeigerTiger55/flask-warbler">Github</a>
+            </p>
+            <p>Warbler uses the following technologies:</p>
+            <ul>
+              <li>Flask, frontend and backend</li>
+              <li>Python</li>
+              <li>PostgreSQL</li>
+              <li>RESTful API with authentication and authorization middleware</li>
+              <li>Bcrypt hasing, protected passwords</li>
+              <li>unittest, tests models and views</li>
+            </ul>
+            <p>
+              Warbler is a server side rendered mock Twitter site. Users can create
+              an account, follow other users, and post messages.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

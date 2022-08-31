@@ -2,7 +2,8 @@ body {
     background-image: url('images/ggb-bg.png');
     background-color: rgb(50, 68, 80);
     background-size: cover;
-    
+    background-repeat: no-repeat;
+    color:white;
 }
 
 h1 {
@@ -57,22 +58,26 @@ nav a:hover {
 footer hr {
     color: white;
 }
+li {
+    color: white;
+    font-size: 120%;
+}
 
 .right-section {
     float:right;
-    padding-right: 25%;
-    padding-top: 5%;
+    padding-right: 10%;
+    padding-top: 3%;
     color: white;
     font-size: 150%;
     text-align: right;
 }
 
 #profile-pic {
-    border-radius: 50%;
+    border-radius: 30%;
 }
 
 #landing-blurb {
-    font-size: 400%;
+    font-size: 300%;
     color: white;
     width: 65%;
     height: 65%;
@@ -85,7 +90,9 @@ footer hr {
     color:white;
 }
 
-
+.mobile-demo {
+    padding: 30px;
+}
 
 .left-column {
     float: left;
