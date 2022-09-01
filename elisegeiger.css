@@ -3,7 +3,10 @@ body {
     background-color: rgb(50, 68, 80);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0px 40px;
     color:white;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -26,6 +29,10 @@ a:visited {
 
 nav {
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
 }
 
 nav ul {
@@ -44,9 +51,8 @@ nav a {
     display: block;
     color: rgb(50, 68, 80);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px;
     text-decoration: none;
   }
 
@@ -64,7 +70,27 @@ footer hr {
 }
 li {
     color: white;
-    font-size: 120%;
+    font-size: 110%;
+}
+
+.main{
+    padding: 10px;
+}
+.right-nav {
+    padding-right: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.left-nav {
+    color: rgb(50, 68, 80);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 14px;
+    display: flex;
+    align-items: center;
+    font-size: 135%;
 }
 
 .right-section {
@@ -72,7 +98,6 @@ li {
     padding-right: 10%;
     padding-top: 3%;
     color: white;
-    font-size: 150%;
     text-align: right;
 }
 
